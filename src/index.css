@@ -1,0 +1,18 @@
+body{
+  font-family: 'Epilogue', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.page{
+  height: 100vh;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+ion-icon{
+  color: #0d6efd;
+}
