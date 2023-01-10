@@ -2,8 +2,9 @@ import { FC } from "react";
 import { Button } from "react-bootstrap";
 import { bg } from "../Components/cssBundled";
 import { business, shield, stopwatch, watch } from "ionicons/icons";
-import { IonIcon } from "@ionic/react";
+import { IonFab, IonIcon } from "@ionic/react";
 import { Fade } from "react-awesome-reveal";
+import ReactWhatsapp from "react-whatsapp";
 const Home: FC = () => {
   const bgImg = bg("https://ellatean.sirv.com/website/images/welcome.webp");
   return (
@@ -88,8 +89,8 @@ const Home: FC = () => {
       <Fade>
         <div className="container text-center bold">
             <div>
-                <h1 className="display-1">Insurance</h1>
-                <p>We accept the following insurance plans</p>
+                <h1 className="display-1">Medical Aid</h1>
+                <p>We accept the following</p>
             </div>
             <div className="row">
                 <div className="col-sm">
