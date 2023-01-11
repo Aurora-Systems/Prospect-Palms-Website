@@ -15,7 +15,7 @@ const Home: FC = () => {
           style={bgImg}
         >
           <div className="col-sm">
-            <Button variant="primary">Book Now</Button>
+            <ReactWhatsapp number="+263782226696" message="Hi, i want to book at your facility. What are the requirements?"><Button variant="primary">Book Now</Button></ReactWhatsapp>
           </div>
         </div>
       </Fade>
@@ -67,23 +67,24 @@ const Home: FC = () => {
           </div>
           <div className="row">
             <div className="col-sm">
-            <img className="Sirv rounded" data-src="https://ellatean.sirv.com/website/images/_LD_1716.webp" alt="" />
+            <img className="Sirv rounded picBorder" data-src="https://ellatean.sirv.com/website/images/_LD_1716.webp" alt="" />
               <br />
               <p>
                 Waterbirth
               </p>
             </div>
             <div className="col-sm">
-            <img className="Sirv rounded" data-src="https://ellatean.sirv.com/website/images/0T7A7763.webp" alt="" />
+            <img className="Sirv rounded picBorder" data-src="https://ellatean.sirv.com/website/images/0T7A7763.webp" alt="" />
             <br/>
               <p>Consultation</p>
             </div>
             <div className="col-sm">
-            <img className="Sirv rounded " data-src="https://ellatean.sirv.com/website/images/0T7A7733.webp" alt="" />
+            <img className="Sirv rounded picBorder" data-src="https://ellatean.sirv.com/website/images/0T7A7733.webp" alt="" />
             <br/>
               <p>Checkups</p>
             </div>
           </div>
+          <Button>More Services</Button>
         </div>
       </Fade>
       <Fade>
