@@ -21,6 +21,8 @@ import '@ionic/react/css/text-transformation.css';
 import '@ionic/react/css/flex-utils.css';
 import '@ionic/react/css/display.css';
 import Footer from './Components/footer';
+import Services from './Pages/Services';
+import Blog from './Pages/Blog';
 
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
@@ -29,6 +31,8 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
+        <Route path="/services" element={<Services/>}/>
+        <Route path="/blog" element={<Blog/>}/>
       </Routes>
     </BrowserRouter>
     <Footer/>

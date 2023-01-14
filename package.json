@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@ionic/react": "^6.4.0",
+    "axios": "^1.2.2",
     "bootstrap": "^5.2.3",
     "ionicons": "^6.0.4",
     "react": "^18.2.0",

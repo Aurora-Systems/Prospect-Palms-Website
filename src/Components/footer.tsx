@@ -4,7 +4,7 @@ import ReactWhatsapp from "react-whatsapp"
 
 const Footer = () => {
     return (
-        <div className="container  mt-5">
+        <div className="container-fluid footer mt-5">
             <div className="row text-center">
                 <div className="col-sm">
                     <p>
@@ -19,15 +19,16 @@ const Footer = () => {
                 </div>
                 <div className="col-sm ">
                     <p>Visit us on</p>
-    <p>                        <a href="https://www.facebook.com/ProspectPalms">Facebook</a>
+                    <p>                        <button className="link_btn"><a href="https://www.facebook.com/ProspectPalms">Facebook</a></button>
                         &nbsp;|&nbsp;
-                        <ReactWhatsapp number="+263782226696" message="Good day, wanted to enquire about your maternity services?"><a href="">Whatsapp</a></ReactWhatsapp>
+                        <ReactWhatsapp className="link_btn" number="+263782226696" message="Good day, wanted to enquire about your maternity services?"><a href="">Whatsapp</a></ReactWhatsapp>
                     </p>
                     <p> All rights reserved © ProspectPalms {new Date().getFullYear()}</p>
                 </div>
                 <div className="col-sm">
                     <p>
-                    Designed</p> <a href="https://aurorasystems.cf" target="blank">@Aurora</a>
+                        Designed</p><button className="link_btn"><a href="https://aurorasystems.cf" target="blank">@Aurora</a>
+                    </button>
                 </div>
             </div>
         </div>

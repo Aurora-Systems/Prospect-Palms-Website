@@ -12,12 +12,11 @@ export const TopNavbar:FC=()=>{
                 <Navbar.Toggle aria-controls="navbarScroll"/>
                 <Navbar.Collapse>
                     <Nav>
-                        <Nav.Link href="">Home</Nav.Link>
-                        <Nav.Link href="">About</Nav.Link>
-                        <Nav.Link href="">Services</Nav.Link>
-                        <Nav.Link href="">Blog</Nav.Link>
-                        <Nav.Link href="">FAQs</Nav.Link>
-                        <Nav.Link href="">Contact</Nav.Link>
+                        <Nav.Link href="/">Home</Nav.Link>
+                        <Nav.Link href="services">Services</Nav.Link>
+                        <Nav.Link href="blog">Blog</Nav.Link>
+                        <Nav.Link href="faqs">FAQs</Nav.Link>
+                        <Nav.Link href="contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                     <Button><a className="text-white" href="tel:+263782226696">Call Us</a></Button>

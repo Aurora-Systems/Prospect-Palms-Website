@@ -17,11 +17,36 @@ ion-icon{
   color: #0d6efd;
 }
 
+.picBorder{
+   transition:1s; /* vendorless fallback */
+}
+
 .picBorder:hover{
-  border-top-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-  transition: 0.5s;
-  transform: scale(1.05);
-  box-shadow: 0px 5px 10px 0px rgb(192, 192, 192);
-  margin-bottom: 20px;
+  transition: 1s;
+  transform: scale(1.04);
+  box-shadow: 0px 5px 10px 0px rgb(210, 233, 253);
+}
+
+.footer{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color:#fff;
+  background-color: #0d6efd;
+}
+
+a{
+  text-decoration: none ;
+  color: inherit;
+}
+
+.link_btn{
+  background-color: none;
+  border:none;
+  border-radius: 5px;
+  padding: 5px;
+  color:white;
+}
+
+.cardW{
+  width:18rem
 }
