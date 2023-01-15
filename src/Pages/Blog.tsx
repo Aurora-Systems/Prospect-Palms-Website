@@ -9,6 +9,7 @@ const Blog=()=>{
     
     useEffect(()=>{
         axios.get(medium_url).then(res=>{
+            console.log(res.data)
             setData(res.data.items)
         }).catch(err=>{
             console.log(err)
@@ -22,17 +23,17 @@ const Blog=()=>{
     }
 
     return(
-        <div className="container page text-center">
+        <div className="container text-center">
             <div>
                 <h1 className="display-1">Blog</h1>
             </div>
-                <div className=" row d-flex justify-content-center align-items-center">
+                <div className="d-flex justify-content-center flex-wrap text">
                 {
                     data.map((item:any,index) =>{
                       
                         return(
-                            <div className="col-sm text-start"  key={index}>
-                                <div className="card card-deck cardW">
+                            <div className="text-start m-3"  key={index}>
+                                <div className=" card card-deck cardW">
                                     <img className="sirv" src={item.thumbnail}/>
                                     <div className="card-body">
                                         <h5 className="card-title">

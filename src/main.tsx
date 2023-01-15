@@ -23,6 +23,7 @@ import '@ionic/react/css/display.css';
 import Footer from './Components/footer';
 import Services from './Pages/Services';
 import Blog from './Pages/Blog';
+import FAQS from './Pages/Faqs';
 
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
@@ -33,6 +34,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
         <Route path="/" element={<Home/>}/>
         <Route path="/services" element={<Services/>}/>
         <Route path="/blog" element={<Blog/>}/>
+        <Route path="/faqs" element={<FAQS/>}/>
       </Routes>
     </BrowserRouter>
     <Footer/>

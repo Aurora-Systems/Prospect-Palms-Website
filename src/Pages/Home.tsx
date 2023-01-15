@@ -15,10 +15,15 @@ const Home: FC = () => {
           style={bgImg}
         >
           <div className="col-sm">
-            <ReactWhatsapp number="+263782226696" message="Hi, i want to book at your facility. What are the requirements?"><Button variant="primary">Book Now</Button></ReactWhatsapp>
+            <ReactWhatsapp className="btn btn-primary" number="+263782226696" message="Hi, i want to book at your facility. What are the requirements?">Book Now</ReactWhatsapp>
           </div>
         </div>
       </Fade>
+      {/* <Fade direction="down">
+      <div className="text-center containerratio ratio-21x9">
+          <iframe className="rounded " src="https://www.youtube.com/embed/zsa0D23V5_Y" title="Prospect Palms: Virtual walk in" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen ></iframe>
+          </div>
+      </Fade> */}
       <Fade direction="down">
         <div className="container align-items-center  text-center mt-5 mb-5">
           <div>
@@ -32,6 +37,7 @@ const Home: FC = () => {
               services
             </p>
           </div>
+        
           <div className="row">
             <div className="col-sm">
               <IonIcon icon={business}  size="large" />
