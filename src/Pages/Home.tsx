@@ -63,7 +63,7 @@ const Home: FC = () => {
             </div>
           </div>
           <br />
-          <Button variant="primary">Read More</Button>
+          <Button variant="primary"><a href="blog" className="text-white">Read more</a></Button>
         </div>
       </Fade>
       <Fade direction="down">
@@ -90,7 +90,7 @@ const Home: FC = () => {
               <p>Checkups</p>
             </div>
           </div>
-          <Button>More Services</Button>
+          <Button><a href="services" className="text-white">More Services</a></Button>
         </div>
       </Fade>
       <Fade>

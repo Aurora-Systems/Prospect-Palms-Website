@@ -24,6 +24,8 @@ import Footer from './Components/footer';
 import Services from './Pages/Services';
 import Blog from './Pages/Blog';
 import FAQS from './Pages/Faqs';
+import Contact from './Pages/Contact';
+import Virtual from './Pages/Gallery';
 
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
@@ -32,9 +34,11 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
+        <Route path='virt' element={<Virtual/>}/>
         <Route path="/services" element={<Services/>}/>
         <Route path="/blog" element={<Blog/>}/>
         <Route path="/faqs" element={<FAQS/>}/>
+        <Route path="/contact" element={<Contact/>}/>
       </Routes>
     </BrowserRouter>
     <Footer/>

@@ -4,8 +4,10 @@ import ReactWhatsapp from "react-whatsapp"
 const FAQS=()=>{
     return(
         <div className="container">
-            <div>
+            <div className="mb-3">
                 <h1 className="display-1">Frequently Asked Questions</h1>
+                <img className="Sirv rounded" data-src="https://ellatean.sirv.com/website/images/0T7A7717.webp" alt="" />
+                <br/>
             </div>
             <Accordion className="container">
             <Accordion.Item eventKey="5">
@@ -19,7 +21,7 @@ const FAQS=()=>{
                     <Accordion.Header>Where are you located?</Accordion.Header>
                     <Accordion.Body>
                         <p>We are located in Waterfalls at number 258 Smuts Road, Harare , Zimbabwe. If coming from the CBD head straight down Seke road till you get to Caledon, turn right at Zuva Service station and follow the road till you get to our road signs.</p>
-                        <Button>Take me there</Button>
+                        <Button><a href="https://goo.gl/maps/4KUvs4j3q18wvGpc7" className="text-white" target="_blank">Take me there</a></Button>
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">
@@ -31,15 +33,15 @@ const FAQS=()=>{
                 <Accordion.Item eventKey="2">
                     <Accordion.Header>Can I transmit HIV to my unborn child?</Accordion.Header>
                     <Accordion.Body>
-                        <p>You can but there are measures which you can take to prevent that. Preventative measures can be discussed during your ante-natal visits. </p>
-                        <Button>Learn more</Button>
+                        <p>You can but there are measures which you can take to prevent this. Preventative measures can be discussed during your ante-natal visits. </p>
+                        <Button><a href="https://www.nhs.uk/common-health-questions/pregnancy/can-hiv-be-passed-to-an-unborn-baby-in-pregnancy-or-through-breastfeeding/" className="text-white" target="_blank">Learn more</a></Button>
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="3">
                     <Accordion.Header>How much is it to give birth at your facility?</Accordion.Header>
                     <Accordion.Body>
                         <p>Click the button below to get our latest price guide!</p>
-                        <Button>Price Guide</Button>
+                        <Button><a className="text-white" href="https://ellatean.sirv.com/website/PriceGuide.pdf" target="_blank">Price Guide</a></Button>
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>

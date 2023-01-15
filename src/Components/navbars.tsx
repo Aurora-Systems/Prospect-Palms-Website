@@ -13,6 +13,7 @@ export const TopNavbar:FC=()=>{
                 <Navbar.Collapse>
                     <Nav>
                         <Nav.Link href="/">Home</Nav.Link>
+                        <Nav.Link href="virt">Virtual Tour</Nav.Link>
                         <Nav.Link href="services">Services</Nav.Link>
                         <Nav.Link href="blog">Blog</Nav.Link>
                         <Nav.Link href="faqs">FAQs</Nav.Link>
