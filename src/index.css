@@ -18,13 +18,13 @@ ion-icon{
 }
 
 .picBorder{
-   transition:1s; /* vendorless fallback */
+  transition-timing-function: ease;
+   transition: 2s; /* vendorless fallback */
 }
 
 .picBorder:hover{
-  transition: 1s;
   transform: scale(1.04);
-  box-shadow: 0px 5px 10px 0px rgb(210, 233, 253);
+  /* box-shadow: 0px 5px 10px 0px rgb(210, 233, 253); */
 }
 
 .footer{
