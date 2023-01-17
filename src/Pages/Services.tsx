@@ -28,12 +28,7 @@ const Services = () => {
                 </div>
             </div>
             <div className="row page d-flex align-items-centre">
-                <div className="col-sm">
-                    <Fade direction="right">
-                    <img className="Sirv picBorder rounded" data-src="https://ellatean.sirv.com/website/images/me.webp" alt="" />
-                    </Fade>
-                </div>
-                <div className="col-sm">
+            <div className="col-sm order-md-2">
                     <Fade direction="down" cascade={true}>
                     <h1 className="display-1">Coming Soon</h1>
                     <ul>
@@ -44,6 +39,12 @@ const Services = () => {
                     </ul>
                     </Fade>
                 </div>
+                <div className="col-sm">
+                    <Fade direction="right">
+                    <img className="Sirv picBorder rounded" data-src="https://ellatean.sirv.com/website/images/me.webp" alt="" />
+                    </Fade>
+                </div>
+                
             </div>
         </div>
     )
