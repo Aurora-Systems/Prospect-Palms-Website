@@ -26,7 +26,7 @@ const Contact = () => {
                 </div>
                 </div>
         <div>
-                <iframe height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3797.094871914437!2d31.04863631432043!3d-17.88101688248103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931a36bf7b3431d%3A0x7d6e1c43d42f835a!2sProspect%20Palms%20Private%20Maternity%20Hospital!5e0!3m2!1sen!2szw!4v1673783203760!5m2!1sen!2szw" className="rounded ratio ratio-16x9" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3797.094871914437!2d31.04863631432043!3d-17.88101688248103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931a36bf7b3431d%3A0x7d6e1c43d42f835a!2sProspect%20Palms%20Private%20Maternity%20Hospital!5e0!3m2!1sen!2szw!4v1673783203760!5m2!1sen!2szw" className="rounded ratio ratio-16x9"  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     )
