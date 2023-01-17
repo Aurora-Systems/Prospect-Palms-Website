@@ -3,7 +3,7 @@ import { Fade } from "react-awesome-reveal"
 
 const Virtual=()=>{
     return(
-        <div className="container text-center">
+        <div className="container text-center ">
             <h1 className="display-1">Virtual Tour</h1>
             <p>Take a sneek peak!</p>
             <Fade direction="down">

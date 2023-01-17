@@ -37,8 +37,7 @@ const Services = () => {
                     <Fade direction="down" cascade={true}>
                     <h1 className="display-1">Coming Soon</h1>
                     <ul>
-                        <li>Free Syphllis testing for pregnant mothers</li>
-                        <li>Free HIV test for pregnant mothers</li>
+                        <li>Gold and Platinum Maternity Wing</li>
                         <li>Family Planning</li>
                         <li>Pharmacy Service</li>
                         <li>VIAC</li>

@@ -20,7 +20,7 @@ const FAQS=()=>{
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>Where are you located?</Accordion.Header>
                     <Accordion.Body>
-                        <p>We are located in Waterfalls at number 258 Smuts Road, Harare , Zimbabwe. If coming from the CBD head straight down Seke road till you get to Caledon, turn right at Zuva Service station and follow the road till you get to our road signs.</p>
+                        <p>We are located in Waterfalls at number 258 Smuts Road, Harare , Zimbabwe. If coming from the CBD head straight down Seke road till you get to Caledon, turn right at Zuva Service station and follow the road till you get to our road signs. Please <b>avoid</b> using Ceres Ave road on google maps!</p>
                         <Button><a href="https://goo.gl/maps/4KUvs4j3q18wvGpc7" className="text-white" target="_blank">Take me there</a></Button>
                     </Accordion.Body>
                 </Accordion.Item>
