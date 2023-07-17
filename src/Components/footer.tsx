@@ -27,7 +27,7 @@ const Footer = () => {
                 </div>
                 <div className="col-sm">
                     <p>
-                        Designed</p><button className="link_btn"><a href="https://aurorasystems.cf" target="blank">@Aurora</a>
+                        Designed</p><button className="link_btn"><a href="https://aurorasystems.co.zw" target="blank">@Aurora</a>
                     </button>
                 </div>
             </div>
