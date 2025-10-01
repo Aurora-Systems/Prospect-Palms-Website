@@ -7,6 +7,12 @@ const Virtual=()=>{
             <h1 className="display-1">Virtual Tour</h1>
             <p>Take a sneek peak!</p>
             <Fade direction="down">
+            <div className="text-center container ratio ratio-16x9">
+                          <iframe className="rounded " src="https://www.youtube.com/embed/yDmK4mos1Ms" title="Garden Suites Prospect Palms" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen ></iframe>
+
+            </div>
+            </Fade>
+            <Fade direction="down">
       <div className="text-center container ratio ratio-16x9">
           <iframe className="rounded " src="https://www.youtube.com/embed/zsa0D23V5_Y" title="Prospect Palms: Virtual walk in" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen ></iframe>
           </div>
