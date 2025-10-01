@@ -41,7 +41,7 @@ const FAQS=()=>{
                     <Accordion.Header>How much is it to give birth at your facility?</Accordion.Header>
                     <Accordion.Body>
                         <p>Click the button below to get our latest price guide!</p>
-                        <Button><a className="text-white" href="https://ellatean.sirv.com/website/PriceGuide.pdf" target="_blank">Price Guide</a></Button>
+                        <Button><a className="text-white" href="https://ngratesc.sirv.com/2025%20JULY%20PRICE%20GUIDE%20PROSPECT%20PALMS.pdf" target="_blank">Price Guide</a></Button>
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
